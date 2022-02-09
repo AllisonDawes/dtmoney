@@ -20,7 +20,19 @@ export const Container = styled.div`
       border: 0;
       background: var(--shape);
       color: var(--text-body);
-      //parei na aula 3 do 2 tópico do capitulo 2 aos 5:35
+      border-radius: 0.2rem;
+
+      &:first-child {
+        color: var(--text-title);
+      }
+
+      &.deposit {
+        color: var(--green);
+      }
+
+      &.withdraw {
+        color: var(--red);
+      }
     }
   }
 `;
